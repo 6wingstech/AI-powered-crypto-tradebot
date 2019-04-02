@@ -7,7 +7,7 @@ This is a trade bot for crypto currencies developed with an LSTM neural network.
 
 The entire trade system consists of 2 parts. The first part is AI assisted, and it is used to make predictions on the future outlook of the market. The second part processes those predictions and decides what actions to take (buy, sell etc.). Currently, it only takes long positions and does not short, but that can be easily added. The short side has been disabled only due to poor backtesting results. 
 
-The trade part of the bot is not included in this repo, and thus the actual trading commands have been commented out on the main bot. To add trading functionality, it would simply require you to add a wrapper to connect to your exchange.
+This repo only contains the AI/prediction part of the bot and the trading part is disabled. Messaging to slack is also disabled.
 
 The system is currently being operated with a USD base, however it can be set to operate with a BTC base (LTC/BTC, ETH/BTC, etc.) or ETH base. Those should run without issue, albeit I have not yet tested results yet. I am simply using a USD base because I prefer having a fiat base currency.
 
