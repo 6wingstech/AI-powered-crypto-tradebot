@@ -8,11 +8,9 @@ from datetime import datetime
 from _calculations import record_csv
 import ast
 from _graphs import *
-from _trading_b import *
 import csv
 import os
 import random
-
 from _build_data import *
 
 class Bot:
